@@ -1,0 +1,72 @@
+{
+  "kpis": {
+    "rows": [
+      {
+        "label": "Metric One",
+        "value": 1280,
+        "unit": "$"
+      },
+      {
+        "label": "Metric Two",
+        "value": 342
+      },
+      {
+        "label": "Metric Three",
+        "value": 18.5,
+        "unit": "%"
+      },
+      {
+        "label": "Metric Four",
+        "value": 27
+      }
+    ],
+    "row_count": 4,
+    "source": "demo",
+    "fetched_at": null
+  },
+  "trend": {
+    "rows": [
+      { "x": "Period 1", "y": 120 },
+      { "x": "Period 2", "y": 180 },
+      { "x": "Period 3", "y": 150 },
+      { "x": "Period 4", "y": 220 },
+      { "x": "Period 5", "y": 200 },
+      { "x": "Period 6", "y": 280 },
+      { "x": "Period 7", "y": 260 },
+      { "x": "Period 8", "y": 330 },
+      { "x": "Period 9", "y": 300 },
+      { "x": "Period 10", "y": 370 },
+      { "x": "Period 11", "y": 350 },
+      { "x": "Period 12", "y": 410 }
+    ],
+    "row_count": 12,
+    "source": "demo",
+    "fetched_at": null
+  },
+  "breakdown": {
+    "rows": [
+      { "label": "Category A", "value": 420 },
+      { "label": "Category B", "value": 310 },
+      { "label": "Category C", "value": 250 },
+      { "label": "Category D", "value": 180 }
+    ],
+    "row_count": 4,
+    "source": "demo",
+    "fetched_at": null
+  },
+  "detail": {
+    "rows": [
+      { "item": "Example item 1", "category": "Category A", "value": 120, "status": "Sample" },
+      { "item": "Example item 2", "category": "Category B", "value": 95, "status": "Sample" },
+      { "item": "Example item 3", "category": "Category C", "value": 240, "status": "Sample" },
+      { "item": "Example item 4", "category": "Category A", "value": 60, "status": "Sample" },
+      { "item": "Example item 5", "category": "Category D", "value": 175, "status": "Sample" },
+      { "item": "Example item 6", "category": "Category B", "value": 130, "status": "Sample" },
+      { "item": "Example item 7", "category": "Category C", "value": 88, "status": "Sample" },
+      { "item": "Example item 8", "category": "Category A", "value": 210, "status": "Sample" }
+    ],
+    "row_count": 8,
+    "source": "demo",
+    "fetched_at": null
+  }
+}
